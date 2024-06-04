@@ -14,17 +14,47 @@
 docker-compose up --build -d
 ```
 
-### Acessando a aplicação
+### Durrubar o container (na raiz)
 
 ```bash
-localhost
+docker-compose down
+```
+
+### verifica se o container estar de pé 
+
+```bash
+docker ps
 ```
 
 ### Acessando o container da aplicação
 
 ```bash
-docker exec -it agenda bash
+docker exec -it aula-laravel bash
 ```
+
+### Instalando as dependencias
+
+```bash
+composer install
+```
+
+### Rodando as migrations
+
+```bash
+php artisan migrate
+```
+
+### Acessando a ROTA (Trocar {rota} pelo nome da rota criado)
+
+```bash
+localhost/api/{rota}
+```
+
+
+
+##############################################################################
+
+#outros
 
 ### Acessando o container do Banco de Dados
 

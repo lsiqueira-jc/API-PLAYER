@@ -20,6 +20,7 @@ Route::get('/',[ExemploController::class ,'index']);
 // });
 
 // Route::get('/player',[ExemploController::class ,'index']);
+
 Route::get('/musicas',[PlayerController::class ,'index']);
 
 

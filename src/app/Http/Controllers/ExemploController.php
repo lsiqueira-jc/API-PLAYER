@@ -11,7 +11,7 @@ class ExemploController extends Controller
     }
 
     public function index(){
-        dd("lista de musicas");
+        dd("Teste de rota index");
     }
 
 }

@@ -14,10 +14,10 @@
 docker-compose up --build -d
 ```
 
-### Durrubar o container (na raiz)
+### Derrubar o container (na raiz)
 
 ```bash
-docker-compose down
+docker-compose down 
 ```
 
 ### verifica se o container estar de pé 
@@ -59,7 +59,7 @@ localhost/api/{rota}
 ### Acessando o container do Banco de Dados
 
 ```bash
-docker exec -it db_agenda bash
+docker exec -it banco bash
 ```
 
 ### Se tiver problema no Windows
